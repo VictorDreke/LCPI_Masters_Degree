@@ -45,7 +45,7 @@ t = TransferFunctionsClass(tau=0.1, k_p=3, zeta=0.6)
 # y3 = odeint(model3, 0, t3)
 # plt.plot(t3, y3, 'r-', linewidth=2)
 # plt.show()
-with open('Tree_Trained_pH_4', 'rb') as f:
+with open('Base de Datos Tree/Tree_Trained_pH_4', 'rb') as f:
     tree_saved, validation_result = pickle.load(f)
 
 

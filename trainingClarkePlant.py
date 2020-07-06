@@ -116,7 +116,7 @@ if wait == 'c':
     file_name_new = input('Insert the name of the file: \n')
     saving_the_tree_object(tree_classifier.best_estimator_, [accuracy, f1_score, roc_auc, cm], file_name=file_name_new)
 else:
-    temp, temp2 = retrieving_the_tree_object('Trained_Tree_ph')
+    temp, temp2 = retrieving_the_tree_object('Base de Datos Tree/Trained_Tree_ph')
     print(temp2)
 
 # plt.show()
