@@ -87,7 +87,7 @@ class ValidationMetricClass:
                 if not math.isfinite(value_is_finite):
                     print('The real data has Inf values\n')
                     return False
-            # Finally, is neither of aforementioned conditions are met then the data have requested conditions
+            # Finally, is neither of aforementioned conditions are met then the data have the requested conditions
             return True
         else:
             print('Check the others conditions of correct time series for validation')
