@@ -88,8 +88,8 @@ class ValidationMetricClass:
                     print('The real data has Inf values\n')
                     return False
             # Finally, is neither of aforementioned conditions are met then the data have the requested conditions
-            self.predicted_data = self.predicted_data.to_numpy()
-            self.real_data = self.real_data.to_numpy()
+            # self.predicted_data = self.predicted_data.to_numpy() Old version
+            # self.real_data = self.real_data.to_numpy() Old version
             return True
         else:
             print('Check the others conditions of correct time series for validation')
